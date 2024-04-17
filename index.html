@@ -1,0 +1,361 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css" />
+    <link rel="stylesheet" href="https://unpkg.com/boxicons@latest/css/boxicons.min.css" />
+
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,300..800;1,300..800&display=swap"
+        rel="stylesheet" />
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@3.3.7/dist/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous"> -->
+</head>
+
+<style>
+
+    .image-container {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        
+    }
+    .image-container img {  
+        width: 10%;
+        margin: 30px;
+        opacity: 0.5;
+    }
+    .image-container img:hover{
+        opacity: 1;
+
+    }
+
+
+
+
+/* 
+    .right{
+  position: fixed;
+  bottom: 2rem;
+  left: 2rem;
+}
+.right i{
+  font-size: 11px;
+  color: var(--bg-color);
+  padding: 14px;
+  background: var(--main-color);
+  border-radius: 2rem;
+}
+
+
+
+
+ */
+
+ 
+
+
+
+            
+        </style>
+
+<body>
+    <header>
+        <a href="" class="logo">Brand Box</a>
+        <ul class="navlist">
+            <li><a href="#home">Home</a></li>
+            <li>
+                <a href="#">Featured  <i class='bx bxs-down-arrow' style="font-size:11px ;"></i></a>
+                <ul class="dropdown">
+                    <li ><a href="mens.html">Mens</a></li>
+                    <li class="m"><a href="womens.html">Womens</a></li>
+                </ul>
+            </li>
+        
+
+            <li><a href="new.html">New</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+
+        <div class="header-icons">
+            <a href="cart.html"><i class="bx bx-shopping-bag"></i></a>
+            <div class="bx bx-menu" id="menu-icon"></div>
+        </div>
+    </header>
+
+    <section class="home" id="home">
+        <div class="home-text">
+            <h1>Men's New <br /><span>Arrivals</span></h1>
+            <p>New Colors now also available in men's sizing</p>
+            <a href="#" class="btn">View Collection </a>
+        </div>
+    </section>
+    
+
+
+
+
+
+      <section class="new" id="new">
+        <div class="center-text">
+          <h2>Men's New Arrivals</h2>
+        </div>
+        <div class="new-content">
+          <!-- <div class="box">
+            <img src="images/sale.jpg" />
+            <h5>Lorem Ipsum dizgi</h5>
+            <h6>$188</h6>
+            <div class="sale">
+              <h4>Sale</h4>
+            </div>
+          </div> -->
+  
+          <div class="box">
+            <img src="images/men1.jpg" />
+            <h5>Short Jens</h5>
+            <h6>₹2999</h6>
+            <div class="sale">
+              <h4>Sale</h4>
+            </div>
+          </div>
+  
+          <div class="box">
+            <img src="images/men2.jpg" />
+            <h5>Brown Overshirt</h5>
+            <h6>₹1699</h6>
+            <div class="sale">
+              <h4>Sale</h4>
+            </div>
+          </div>
+  
+          <div class="box">
+            <img src="images/men3.jpg" />
+            <h5>Polo</h5>
+            <h6>₹1499</h6>
+            <div class="sale">
+              <h4>Sale</h4>
+            </div>
+          </div>
+  
+          <div class="box">
+            <img src="images/men4.jpg" />
+            <h5>Shirst</h5>
+            <h6>₹3499</h6>
+            <div class="sale">
+              <h4>Sale</h4>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+
+    <!-- <section class="featured" id="featured">
+        <div class="center-text">
+            <h2>Featured Category</h2>
+        </div>
+
+        <div class="featured-Content">
+            <div class="row">
+                <img src="images/feal1.jpg" />
+                <div class="fea-text">
+                    <h5>Mens</h5>
+                    <p>10 items</p>
+                </div>
+                <div class="arrow"></div>
+                <a href="#" class="right"><i class="bx bx-right-arrow-alt"></i></a>
+            </div>
+
+            <div class="row">
+                <img src="images/feal2.jpg" />
+                <div class="fea-text">
+                    <h5>Mens</h5>
+                    <p>10 items</p>
+                </div>
+                <div class="arrow"></div>
+                <a href="#" class="right"><i class="bx bx-right-arrow-alt"></i></a>
+            </div>
+
+            <div class="row">
+                <img src="images/feal3.jpg" />
+                <div class="fea-text">
+                    <h5>Mens</h5>
+                    <p>10 items</p>
+                </div>
+                <div class="arrow"></div>
+                <a href="#" ><i class="bx bx-right-arrow-alt"></i></a>
+            </div>
+
+            <div class="row">
+                <img src="images/feal4.jpg" />
+                <div class="fea-text">
+                    <h5>Mens</h5>
+                    <p>10 items</p>
+                </div>
+                <div class="arrow"></div>
+                <a href="#"><i class="bx bx-right-arrow-alt"></i></a>
+            </div>
+
+            <div class="row">
+                <img src="images/feal5.jpg" />
+                <div class="fea-text">
+                    <h5>Mens</h5>
+                    <p>10 items</p>
+                </div>
+                <div class="arrow"></div>
+                <a href="#"><i class="bx bx-right-arrow-alt"></i></a>
+            </div>
+
+            <div class="row">
+                <img src="images/feal6.jpg" />
+                <div class="fea-text">
+                    <h5>Mens</h5>
+                    <p>10 items</p>
+                </div>
+                <div class="arrow"></div>
+                <a href="#"><i class="bx bx-right-arrow-alt"></i></a>
+            </div>
+        </div>
+    </section> -->
+
+
+    <section class="cta">
+        <div class="cta-text">
+          <h6>SUMMER ON SALE</h6>
+          <h4>
+            20% OFF <br />
+            NEW ARRIVAL
+          </h4>
+          <a href="#" class="btn"> Shop Now</a>
+        </div>
+      </section>
+      <section class="new" id="new">
+        <div class="center-text">
+          <h2>Women's New Arrivals</h2>
+        </div>
+        <div class="new-content">
+          <!-- <div class="box">
+            <img src="images/sale.jpg" />
+            <h5>Lorem Ipsum dizgi</h5>
+            <h6>$188</h6>
+            <div class="sale">
+              <h4>Sale</h4>
+            </div>
+          </div> -->
+  
+          <div class="box">
+            <img src="images/sale.jpg" />
+            <h5>Sweat Shirt</h5>
+            <h6>₹2599</h6>
+            <div class="sale">
+              <h4>Sale</h4>
+            </div>
+          </div>
+  
+          <div class="box">
+            <img src="images/sale3.jpg" />
+            <h5>Cream Jens</h5>
+            <h6>₹1799</h6>
+            <div class="sale">
+              <h4>Sale</h4>
+            </div>
+          </div>
+  
+          <div class="box">
+            <img src="images/sale4.jpg" />
+            <h5>Slip Dress</h5>
+            <h6>₹2345</h6>
+            <div class="sale">
+              <h4>Sale</h4>
+            </div>
+          </div>
+  
+          <div class="box">
+            <img src="images/sale5.jpg" />
+            <h5>Cargo Pents</h5>
+            <h6>₹2599</h6>
+            <div class="sale">
+              <h4>Sale</h4>
+            </div>
+          </div>
+        </div>
+      </section>
+    
+   
+
+
+    <Center>
+
+        <div class="image-container">
+            <img src="images/brand11.png" alt="Snow" >
+            <img src="images/brand22.png" alt="Snow" >
+            <img src="images/brand33.png" alt="Snow" >
+            <img src="images/brand44.png" alt="Snow" >
+            <img src="images/brand55.png" alt="Snow" >
+            <img src="images/brand66.jpg" alt="Snow" >
+            
+        </div>
+    </Center>
+      
+<br>    
+    <section class="contact" id="contact">
+        <div class="main-contact">
+            <h3>Brand Box</h3>
+            <h5>Let's Connect with us</h5>
+            <div class="icons">
+                <a href="#"><i class='bx bxl-facebook-square'></i>    </a>
+                <a href="#"> <i class='bx bxl-instagram-alt' ></i>  </a>
+                <a href="#"> <i class='bx bxl-twitter' ></i>   </a>
+            </div>
+
+        </div>
+
+
+        <div class="main-contact">
+            <h3>Explore</h3>
+            <li><a href="#home">Home</a></li>
+            <li><a href="#featured">Featured</a></li>
+            <li><a href="#new">New</a></li>
+            <li><a href="#contact">Contact</a></li>
+            
+
+        </div>
+        <div class="main-contact">
+            <h3>our Service</h3>
+            <li><a href="#">Pricing</a></li>
+            <li><a href="#">Free Shipping</a></li>
+            <li><a href="#">Gift Cards</a></li>
+        </div>
+
+        <div class="main-contact">
+            <h3>Shopping</h3>
+            <li><a href="#">Clothing Store</a></li>
+            <li><a href="#">Trending Shoes</a></li>
+            <li><a href="#">Accessories</a></li>
+            <li><a href="#">Sale</a></li>
+        </div>
+
+
+
+    </section>
+
+
+    <div class="last-text">
+        <p>Copyright © 2024 All rights Reserved | Made by Brand Box</p>
+    </div>
+
+    <a href="#featured" class="top"><i class='bx bx-up-arrow-alt' ></i></a>
+
+    
+    <script src="https://unpkg.com/scrollreveal"></script>
+
+
+    <!-- <script src="addtocart.js"></script> -->
+    <!-----custom js link--->
+    <script src="script.js"></script>
+</body>
+
+</html>
